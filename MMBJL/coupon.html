@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>省钱控</title>
+    <script src="lib/jquery/jquery-1.12.0.min.js"></script>
+    <script src="lib/art/template.js"></script>
+    <script src='lib/flexible/flexible.js'></script>
+    <script src='lib/flexible/flexible_css.js'></script>
+    <script src="js/conmmon.js"></script>
+    <link rel='stylesheet' href='css/basex.css'>
+    <link rel="stylesheet" href="css/coupon.css">
+    <link rel="stylesheet" type="text/css" href="fonts/four-webfont/iconfont.css">
+</head>
+<body>
+    <!--顶部箭头 app下载  标题-->
+    <header class="topText clearfix">
+        <div class="arrowLeft f-left iconfont icon-icback"></div>
+        <a class="f-right appdow" href="javascript:;"><img src="./images/header_app.png" alt=""></a>
+        <h2 class="title">优惠劵</h2>
+    </header>
+
+    <!--优惠券列表-->
+    <section class="menu clearfix">
+        <div class=" f-left"><img src="images/2013310191729944.jpg" alt=""></div>
+    </section>
+
+    <!--登录注册返回顶部-->
+    <footer class="footer">
+        <div class="login clearfix">
+            <span class="lo f-left">登录</span>
+            <span class="lo f-left">注册</span>
+            <span class="top f-left"><img src="images/top.jpg" alt="顶部">返回顶部</span>
+        </div>
+        <div class="dowload">
+            <p class="app"><span>手机APP下载</span> <span>慢慢买手机版</span>  -- 掌上比价平台</p>
+            <p class="dizhi">m.manmanbuy.com</p>
+        </div>
+    </footer>
+
+    <!--模板-->
+    <script id="youhuijuan" type="text/html">
+        {{each result as item}}
+            <a href="{{item.couponLink}}?couponid={{item.couponId}}&couponTitle={{item.couponTitle}}"  class=" f-left"><img src="{{item.couponImg}}" alt="{{item.couponTitle}}"></a>
+        {{/each}}
+    </script>
+
+    <script src="js/coupon.js"></script>
+</body>
+</html>

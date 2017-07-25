@@ -1,0 +1,184 @@
+@themes: "."; // 路径提取
+@import "@{themes}/common.less";   // 导入变量 less
+
+// 顶部
+.secondHeader(#f4483e);
+.commonFooter;
+
+//滑动菜单
+.menu {
+    background-color: #fff;
+    #wrapper {
+        border-bottom:5px solid #f8f8f8;
+        position: relative;
+        overflow: hidden;
+        .list {
+            height:80*@rem;
+            font-size: 24*@rem;
+            li {
+                a {
+                    display: inline-block;
+                    margin:0 24*@rem;
+                    line-height:80*@rem;
+                    box-sizing: border-box;
+                }
+            }
+            // 白菜价 菜单栏下滑红线
+            li.showRed a {
+                border-bottom: 2px solid red;
+                color : red;
+            }
+        }
+        .download {
+            position: absolute;
+            right:0;
+            top :0;   
+            background-color: #fff; 
+        }
+        .download::before {
+            display: block;
+            height:80*@rem;
+            width : 80*@rem;
+            font-size: 80*@rem;
+        }
+    }
+}
+
+// 详情页
+.xiangqing {
+    background-color: #fff;
+    .list {
+        .shangping {
+            padding:20*@rem 10*@rem;
+            border-bottom:12*@rem solid #f8f8f8;
+        }
+        .pic {
+            img {
+                width:260*@rem;
+            }
+        }
+        .txt {
+            font-size: 26*@rem;
+            margin-left:270*@rem;
+            p {
+                color :#000;
+            }
+            .price {
+                color :#fc043b;
+                margin:24*@rem 0 18*@rem 0;
+                font-size: 36*@rem;
+                i {
+                    font-style: normal;
+                    font-size: 24*@rem;
+                }
+                em {
+                    font-size: 16*@rem;
+                }
+                del  {
+                    font-size: 18*@rem;
+                    color: #b4b6ae;
+                    margin-left: 20*@rem;
+                }
+            }
+            .rate {  
+                .juan {
+                    font-size: 22*@rem;
+                    color: #fc043b;
+                    margin-left: 20*@rem;
+                    .bar {
+                        display: inline-block;
+                        i {
+                            position: relative;
+                            display: inline-block;
+                            width: 160*@rem;
+                            height : 38*@rem;
+                            border :2px solid #fc043b;
+                            background-color: #ffb7b7;
+                            border-radius: 19*@rem;
+                            top:5*@rem;
+                            overflow: hidden;
+                            em {
+                                height : 38*@rem;
+                                position: absolute;
+                                top:-4*@rem;
+                                display: inline-block;
+                                background-color: #fc043b;
+                                border-radius: 18*@rem;
+                                color: #fff;
+                                font-size:  18*@rem;
+                            }
+                            span {
+                                width: 100%;
+                                height: 100%;
+                                line-height: 1;
+                                top: 6*@rem;
+                                left: 0;
+                                color: #fff;
+                                position: absolute;
+                                z-index: 2;
+                                text-align: center;
+                            }
+                        }
+                        b {
+                            margin-left: 20*@rem;
+                            font-weight: 400;
+                        }
+                    }
+                    
+                }
+            }
+            .draw {
+                margin-top: 22*@rem;
+                span:first-child {
+                    overflow: hidden;
+                    display: inline-block;
+                    width: 278*@rem;
+                    height: 50*@rem;
+                    line-height: 46*@rem;
+                    border:3*@rem dotted pink;
+                    a {
+                        text-align: center;
+                        width: 278*@rem;
+                        color :#e63d39;
+                        font-size: 26*@rem;
+                        padding:0 16*@rem;
+                    }
+                }
+                span:nth-child(2) {
+                    a {
+                        font-size: 22*@rem;
+                        color: #fff;
+                        background-color: #ff5e5d;
+                        padding:12*@rem 10*@rem;
+                        border-radius: 10*@rem;
+                    }
+                }
+            }
+        }
+        a {
+            display: inline-block;
+        }
+    }
+}
+
+
+// 固定 返回顶部 小火箭
+.backTop {
+    position: fixed;
+    right : 20*@rem;
+    bottom: 100*@rem;
+    width : 80*@rem;
+    height: 80*@rem;
+    z-index: 2;
+    border-radius: 40*@rem;
+    background-color: #7f7f7f;
+    div {
+        font-size: 60*@rem;
+        color:#ccc;
+        transform: rotate(-45deg);
+        margin-top: 10*@rem;
+    }
+    div:before {
+        margin-left: 10*@rem;
+    }
+}

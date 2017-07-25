@@ -1,0 +1,251 @@
+@themes: "."; // 路径提取
+@import "@{themes}/common.less";   // 导入变量 less
+
+.indexHeader;
+.commonSearch;
+.commonFooter;
+
+// 家电分类列表
+.sort {
+    line-height: 80*@rem;
+    .menu {
+        background-color: #ededed;
+        border : 1px solid #ccc;
+        .top-list {
+            display: block;
+            border-bottom : 2px solid #ccc;
+            color:#000;
+        }
+    }
+    .arrowdown {
+        margin-right:34*@rem;
+    }
+    .arrowdown::before {
+        display: inline-block;
+        transform: rotate(-90deg);
+        font-weight: 700;
+    }
+    h2 {
+        padding-left:34*@rem;
+        font-size: 36*@rem;
+        font-weight: 700;
+    }
+}
+
+//折扣推荐顶部
+.recommend {
+    background: linear-gradient(to bottom ,#fff,#f0f0f0);
+    height : @rem*70;
+    padding : 0 20*@rem;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    line-height: @rem*70;
+    > .f-left {
+        font-size: @rem * 33;
+    }
+}
+
+// 热门品牌排行
+.paihang {
+    background-color: #fff;
+    .niu {
+        font-weight: 700;
+        text-indent: 10*@rem;
+        height: 74*@rem;
+        background-color: #f3f3f3;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        font-size: 26*@rem;
+        color :#7d380e;
+        line-height: 74*@rem;
+    }
+}
+
+// 电视排行
+.sort1 {
+    .classify {
+        .tv {
+            position: relative;
+            background-color: #fff;
+            padding: 20*@rem 10*@rem 20*@rem  20*@rem;
+            border-bottom : 1*@rem solid #ccc;
+            .title {
+                em {
+                    display: block;
+                    width: 40*@rem;
+                    height: 40*@rem;
+                    text-align: center;
+                    font-size: 20*@rem;
+                    color: #fff;
+                    line-height: 40*@rem;
+                    background-color: #c9c9c9;
+                }
+                em.top1 {
+                    background: #f10e0e;
+                }
+                em.top2 {
+                    background: #ff9314;
+                }
+                em.top3 {
+                    background: #8adf5b;
+                }
+                .list {
+                    margin-left: 70*@rem;
+                    span {
+                        display: inline-block;
+                        font-size: 30*@rem;
+                        color : #000;  
+                        font-weight: 700;
+                    }
+                    p {
+                        font-size: 26*@rem;
+                        color :#9c9a99;
+                        line-height: 40*@rem;
+                        margin-top: 20*@rem;
+                    }
+                }
+            }
+            .arrow {
+                font-size: 34*@rem;
+                position: absolute;
+                top: 51*@rem;
+                right: 0;
+                color: #8b9e9e;
+            }
+        }
+    }
+}
+
+// 销量排行
+    .sales {
+        background-color: #fff;
+        > li {     
+            border-bottom : 1*@rem solid #ccc;   
+            list-style: none;  
+            padding : 30*@rem 8*@rem;
+            > a {
+                display: block;
+                overflow: hidden;
+                > .f-left {
+                    width:200*@rem;
+                    > img {
+                        width: 200*@rem;
+                        height: 200*@rem;
+                    }
+                }
+                > .txt {
+                    position: relative;
+                    margin-left: 210*@rem;
+                    > p {
+                        font-size: 27*@rem;
+                        > span {
+                            color: @price-color;
+                        }
+                    }
+                    p:first-child {
+                        margin-bottom: 20*@rem;
+                    }
+                    p:nth-child(2) {
+                        color: red;
+                    }
+                    > .time {
+                        margin-top: 20*@rem;
+                        > span  {
+                            font-size: 16*@rem;
+                            color: #ccc;
+                            margin-left:10*@rem;
+                        }
+                    }
+                    .wujiao {
+                        position: absolute;
+                        right: 0;
+                        top:100*@rem;
+                        span {
+                            font-size: 27*@rem;
+                            color :@price-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+// 评论区 宝贝详情
+.talks {
+    background-color: #fff;
+    .nav {
+        padding :20*@rem;
+        background-color: #fff;
+        .titt {
+            > li {     
+                border-bottom : 1*@rem solid #ccc;   
+                list-style: none;  
+                padding : 30*@rem 8*@rem;
+                > a {
+                    display: block;
+                    overflow: hidden;
+                    > .f-left {
+                        width:200*@rem;
+                        > img {
+                            width: 200*@rem;
+                            height: 200*@rem;
+                        }
+                    }
+                    > .txt {
+                        position: relative;
+                        margin-left: 210*@rem;
+                        > p {
+                            margin-bottom: 20*@rem;
+                            font-size: 27*@rem;
+                            > span {
+                                color: @price-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .content {
+            background-color: #f7f7f7;
+            padding: 20*@rem;
+            border : 1*@rem solid #ccc;
+            .name {
+                font-size : 22*@rem;
+                .f-left {
+                    color :green;
+                }
+                .f-right {
+                    color :#a8948d;
+                }
+            }
+            .text {
+                margin-top: 30*@rem;
+                color :#000;
+                font-size: 20*@rem;
+                position: relative;
+            }
+            // 做三角形
+            .text:before,.text:after{
+                content: "";  /*:before和:after必带技能，重要性为满5颗星*/
+                display: block;
+                position: absolute;  /*日常绝对定位*/
+                top:-100*@rem;
+                left: 30*@rem;
+                width: 0;
+                height: 0;
+                border:16*@rem solid transparent;
+            }
+            .text:before{
+                top:-110*@rem;
+                border-bottom-color: rgba(245,245,245,1);
+                z-index:1
+            }
+            .text:after{
+                top:-114*@rem;
+                border-bottom-color: #ccc;
+                z-index: 0
+            }
+        }
+    }
+}

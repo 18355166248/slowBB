@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>凑单品</title>
+    <script src="lib/jquery/jquery-1.12.0.min.js"></script>
+    <script src="lib/art/template.js"></script>
+    <script src='lib/flexible/flexible.js'></script>
+    <script src='lib/flexible/flexible_css.js'></script>
+    <script src="js/conmmon.js"></script>
+    <link rel='stylesheet' href='css/basex.css'>
+    <link rel="stylesheet" href="css/gsproduct.css">
+    <link rel="stylesheet" type="text/css" href="fonts/four-webfont/iconfont.css">
+</head>
+<body>
+    <!--顶部箭头 app下载  标题-->
+    <header class="topText clearfix">
+        <div class="arrowLeft f-left iconfont icon-icback"></div>
+        <a class="f-right appdow" href="javascript:;"><img src="./images/header_app.png" alt=""></a>
+        <h2 class="title">凑单品</h2>
+    </header>
+
+    <!--详情页-->
+    <section class="gsproduct">
+        <!--菜单-->
+        <div class="menu">
+            <div class="area">
+                <ul class="city clearfix">
+                    <li class="w33 f-left cityleft " shopid="0">
+                        <span class="ll-tile">京东</span>
+                        <span class="iconfont icon-arr-up"></span>
+                    </li>
+                    <li class="w33 f-left citycenter" areaid="0">
+                        <span class="cc-title">华北</span>
+                        <span class="iconfont icon-arr-up"></span>
+                    </li>
+                    <li class="w33 f-left cityright">
+                        <span>全部价格</span>
+                        <span class="iconfont icon-arr-up"></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="search1">
+                <div class="fangda iconfont icon-xiazai"></div>
+            </div>
+
+            <!--下拉区域-->
+            <div class="down-up cityjlone hide">
+                <ul class="diqu content">
+                    <!--<li class="clearfix">
+                        <div class="f-left">京东</div>
+                        <div class="duihao f-right iconfont icon-icon-check"></div>
+                    </li>
+                    <li>一号店</li>
+                    <li>天猫超市</li>-->
+                </ul>
+            </div>
+            <div class="down-up cityjltwo hide">
+                <ul class="quyu content">
+                    <!--<li class="clearfix">
+                        <div class="f-left">华北(北京,山西)</div>
+                        <div class="duihao f-right iconfont icon-icon-check hide"></div>
+                    </li>-->
+                </ul>
+            </div>
+            <div class="down-up cityjlthree hide">
+                <ul class="all-one content">
+                    <li class="clearfix">
+                        <div class="f-left">全部价格</div>
+                        <div class="duihao f-right iconfont icon-icon-check"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!--详情页-->
+        <div class="mess">
+            <ul class="nav clearfix">
+                <li class="shang w50 f-left">
+                    <a class="liv" href="#">
+                        <div class="img-now"><img src="images/5721c55cNaabfef46.jpg" alt=""></div>
+                        <p class="title-1 one-txt-cut">微软(Microsoft)Office ESD 测试产品</p>
+                        <div class="price clearfix">
+                            <span class="f-left">$0.50</span>
+                            <span class="f-right">去凑单</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!--返回顶部选项-->
+    <section class="backTop">
+        <div class="iconfont icon-feiji"></div>
+    </section>
+
+    <!--登录注册返回顶部-->
+    <footer class="footer">
+        <div class="login clearfix">
+            <span class="lo f-left">登录</span>
+            <span class="lo f-left">注册</span>
+            <span class="top f-left"><img src="images/top.jpg" alt="顶部">返回顶部</span>
+        </div>
+        <div class="dowload">
+            <p class="app"><span>手机APP下载</span> <span>慢慢买手机版</span>  -- 掌上比价平台</p>
+            <p class="dizhi">m.manmanbuy.com</p>
+        </div>
+    </footer>
+
+    <!--模板-->
+
+    <script id="cityone" type="text/html">
+    {{each result as item}}
+        <li class="clearfix" id="{{item.shopId}}" nme2="{{item.shopName}}">
+            <div class="f-left">{{item.shopName}}</div>
+            <div class="duihao f-right iconfont icon-icon-check hide"></div>
+        </li>
+    {{/each}}
+    </script>
+
+    <script id="citytwo" type="text/html">
+    {{each result as item}}
+        <li class="clearfix" id="{{item.areaId}}" nme1="{{item.areaName.slice(0,2)}}">
+            <div class="f-left">{{item.areaName}}</div>
+            <div class="duihao f-right iconfont icon-icon-check hide"></div>
+        </li>
+    {{/each}}
+    </script>
+
+    <script id="chanping" type="text/html">
+        {{each result as item}}
+            <li class="shang w50 f-left" areaId="{{item.areaId}}" productId="{{item.productId}}">
+                    <a class="liv" href="https://item.m.jd.com/ware/view.action?wareId=12186694085">
+                        <div class="img-now"><img src="{{item.productImg}}" alt=""></div>
+                        <p class="title-1 one-txt-cut">{{item.productName}}</p>
+                        <div class="price clearfix">
+                            <span class="f-left">{{item.productPrice}}</span>
+                            <span class="f-right">去凑单</span>
+                        </div>
+                    </a>
+                </li>
+        {{/each}}
+    </script>
+    <script src="js/gsproduct.js"></script>
+</body>
+</html>

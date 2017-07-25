@@ -1,0 +1,134 @@
+html,
+body {
+  min-width: 320px;
+}
+#header {
+  background-color: #ff841d;
+  height: 1.3333rem;
+}
+#header > .logo {
+  height: 0.999975rem;
+  padding-top: 0.386657rem;
+  margin-left: 0.439989rem;
+}
+#header > .logo > a > img {
+  height: 0.613318rem;
+}
+#header > .dow {
+  height: 0.93331rem;
+  padding-top: 0.186662rem;
+  padding-right: 0.186662rem;
+}
+#header > .dow > a > img {
+  height: 0.93331rem;
+}
+.search {
+  height: 1.373299rem;
+  background-color: #fff;
+  padding: 0 0.26666rem;
+}
+.search > .left {
+  margin-right: 1.86662rem;
+}
+.search > .left > input[type="text"] {
+  width: 100%;
+  height: 0.79998rem;
+  border-radius: 0.39999rem;
+  background-color: #f1f1f1;
+  font-size: 0.333325rem;
+  margin-top: 0.26666rem;
+  text-indent: 0.39999rem;
+}
+.search > .f-right {
+  width: 1.86662rem;
+}
+.search > .f-right > input {
+  height: 0.79998rem;
+  width: 1.679958rem;
+  border-radius: 0.39999rem;
+  margin-top: 0.26666rem;
+  font-size: 0.413323rem;
+  color: #fff;
+  background-color: #ff841d;
+  margin-left: 0.199995rem;
+}
+.footer {
+  height: 1.133305rem;
+  margin-top: 0.653317rem;
+}
+.footer .login {
+  font-size: 0.333325rem;
+  color: #000;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  line-height: 0.93331rem;
+}
+.footer .login .lo {
+  width: 30%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.footer .login .top {
+  width: 40%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.footer .login .top img {
+  height: 0.373324rem;
+  vertical-align: sub;
+}
+.footer .dowload {
+  text-align: center;
+  font-size: 0.253327rem;
+  margin: 0.453322rem 0;
+}
+.footer .dowload .app span:first-child {
+  color: red;
+  font-weight: 700;
+}
+.footer .dowload .app span:nth-child(2) {
+  color: #000;
+  font-weight: 700;
+}
+.footer .dowload .dizhi {
+  margin-top: 0.066665rem;
+}
+.sort {
+  line-height: 1.06664rem;
+}
+.sort .menu {
+  background-color: #ededed;
+  border: 1px solid #ccc;
+}
+.sort .menu .top-list {
+  display: block;
+  border-bottom: 2px solid #ccc;
+}
+.sort .arrowdown {
+  margin-right: 0.453322rem;
+}
+.sort .arrowdown::before {
+  display: inline-block;
+  transform: rotate(-90deg);
+  font-weight: 700;
+}
+.sort h2 {
+  padding-left: 0.453322rem;
+  font-size: 0.479988rem;
+  font-weight: 700;
+}
+.sort .list {
+  text-align: center;
+}
+.sort .list li {
+  font-size: 0.333325rem;
+  border-right: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  background-color: #fff;
+}
+.sort .list li:nth-child(3n) {
+  border-right: none;
+}

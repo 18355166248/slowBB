@@ -1,0 +1,324 @@
+html,
+body {
+  min-width: 320px;
+}
+#header {
+  background-color: #ff841d;
+  height: 1.3333rem;
+}
+#header > .logo {
+  height: 0.999975rem;
+  padding-top: 0.386657rem;
+  margin-left: 0.439989rem;
+}
+#header > .logo > a > img {
+  height: 0.613318rem;
+}
+#header > .dow {
+  height: 0.93331rem;
+  padding-top: 0.186662rem;
+  padding-right: 0.186662rem;
+}
+#header > .dow > a > img {
+  height: 0.93331rem;
+}
+.search {
+  height: 1.373299rem;
+  background-color: #fff;
+  padding: 0 0.26666rem;
+}
+.search > .left {
+  margin-right: 1.86662rem;
+}
+.search > .left > input[type="text"] {
+  width: 100%;
+  height: 0.79998rem;
+  border-radius: 0.39999rem;
+  background-color: #f1f1f1;
+  font-size: 0.333325rem;
+  margin-top: 0.26666rem;
+  text-indent: 0.39999rem;
+}
+.search > .f-right {
+  width: 1.86662rem;
+}
+.search > .f-right > input {
+  height: 0.79998rem;
+  width: 1.679958rem;
+  border-radius: 0.39999rem;
+  margin-top: 0.26666rem;
+  font-size: 0.413323rem;
+  color: #fff;
+  background-color: #ff841d;
+  margin-left: 0.199995rem;
+}
+.footer {
+  height: 1.133305rem;
+  margin-top: 0.653317rem;
+}
+.footer .login {
+  font-size: 0.333325rem;
+  color: #000;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  line-height: 0.93331rem;
+}
+.footer .login .lo {
+  width: 30%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.footer .login .top {
+  width: 40%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.footer .login .top img {
+  height: 0.373324rem;
+  vertical-align: sub;
+}
+.footer .dowload {
+  text-align: center;
+  font-size: 0.253327rem;
+  margin: 0.453322rem 0;
+}
+.footer .dowload .app span:first-child {
+  color: red;
+  font-weight: 700;
+}
+.footer .dowload .app span:nth-child(2) {
+  color: #000;
+  font-weight: 700;
+}
+.footer .dowload .dizhi {
+  margin-top: 0.066665rem;
+}
+.sort {
+  line-height: 1.06664rem;
+}
+.sort .menu {
+  background-color: #ededed;
+  border: 1px solid #ccc;
+}
+.sort .menu .top-list {
+  display: block;
+  border-bottom: 2px solid #ccc;
+  color: #000;
+}
+.sort .arrowdown {
+  margin-right: 0.453322rem;
+}
+.sort .arrowdown::before {
+  display: inline-block;
+  transform: rotate(-90deg);
+  font-weight: 700;
+}
+.sort h2 {
+  padding-left: 0.453322rem;
+  font-size: 0.479988rem;
+  font-weight: 700;
+}
+.recommend {
+  background: linear-gradient(to bottom, #fff, #f0f0f0);
+  height: 0.93331rem;
+  padding: 0 0.26666rem;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  line-height: 0.93331rem;
+}
+.recommend > .f-left {
+  font-size: 0.439989rem;
+}
+.paihang {
+  background-color: #fff;
+}
+.paihang .niu {
+  font-weight: 700;
+  text-indent: 0.13333rem;
+  height: 0.986642rem;
+  background-color: #f3f3f3;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  font-size: 0.346658rem;
+  color: #7d380e;
+  line-height: 0.986642rem;
+}
+.sort1 .classify .tv {
+  position: relative;
+  background-color: #fff;
+  padding: 0.26666rem 0.13333rem 0.26666rem 0.26666rem;
+  border-bottom: 0.013333rem solid #ccc;
+}
+.sort1 .classify .tv .title em {
+  display: block;
+  width: 0.53332rem;
+  height: 0.53332rem;
+  text-align: center;
+  font-size: 0.26666rem;
+  color: #fff;
+  line-height: 0.53332rem;
+  background-color: #c9c9c9;
+}
+.sort1 .classify .tv .title em.top1 {
+  background: #f10e0e;
+}
+.sort1 .classify .tv .title em.top2 {
+  background: #ff9314;
+}
+.sort1 .classify .tv .title em.top3 {
+  background: #8adf5b;
+}
+.sort1 .classify .tv .title .list {
+  margin-left: 0.93331rem;
+}
+.sort1 .classify .tv .title .list span {
+  display: inline-block;
+  font-size: 0.39999rem;
+  color: #000;
+  font-weight: 700;
+}
+.sort1 .classify .tv .title .list p {
+  font-size: 0.346658rem;
+  color: #9c9a99;
+  line-height: 0.53332rem;
+  margin-top: 0.26666rem;
+}
+.sort1 .classify .tv .arrow {
+  font-size: 0.453322rem;
+  position: absolute;
+  top: 0.679983rem;
+  right: 0;
+  color: #8b9e9e;
+}
+.sales {
+  background-color: #fff;
+}
+.sales > li {
+  border-bottom: 0.013333rem solid #ccc;
+  list-style: none;
+  padding: 0.39999rem 0.106664rem;
+}
+.sales > li > a {
+  display: block;
+  overflow: hidden;
+}
+.sales > li > a > .f-left {
+  width: 2.6666rem;
+}
+.sales > li > a > .f-left > img {
+  width: 2.6666rem;
+  height: 2.6666rem;
+}
+.sales > li > a > .txt {
+  position: relative;
+  margin-left: 2.79993rem;
+}
+.sales > li > a > .txt > p {
+  font-size: 0.359991rem;
+}
+.sales > li > a > .txt > p > span {
+  color: #ff6c00;
+}
+.sales > li > a > .txt p:first-child {
+  margin-bottom: 0.26666rem;
+}
+.sales > li > a > .txt p:nth-child(2) {
+  color: red;
+}
+.sales > li > a > .txt > .time {
+  margin-top: 0.26666rem;
+}
+.sales > li > a > .txt > .time > span {
+  font-size: 0.213328rem;
+  color: #ccc;
+  margin-left: 0.13333rem;
+}
+.sales > li > a > .txt .wujiao {
+  position: absolute;
+  right: 0;
+  top: 1.3333rem;
+}
+.sales > li > a > .txt .wujiao span {
+  font-size: 0.359991rem;
+  color: #ff6c00;
+}
+.talks {
+  background-color: #fff;
+}
+.talks .nav {
+  padding: 0.26666rem;
+  background-color: #fff;
+}
+.talks .nav .titt > li {
+  border-bottom: 0.013333rem solid #ccc;
+  list-style: none;
+  padding: 0.39999rem 0.106664rem;
+}
+.talks .nav .titt > li > a {
+  display: block;
+  overflow: hidden;
+}
+.talks .nav .titt > li > a > .f-left {
+  width: 2.6666rem;
+}
+.talks .nav .titt > li > a > .f-left > img {
+  width: 2.6666rem;
+  height: 2.6666rem;
+}
+.talks .nav .titt > li > a > .txt {
+  position: relative;
+  margin-left: 2.79993rem;
+}
+.talks .nav .titt > li > a > .txt > p {
+  margin-bottom: 0.26666rem;
+  font-size: 0.359991rem;
+}
+.talks .nav .titt > li > a > .txt > p > span {
+  color: #ff6c00;
+}
+.talks .nav .content {
+  background-color: #f7f7f7;
+  padding: 0.26666rem;
+  border: 0.013333rem solid #ccc;
+}
+.talks .nav .content .name {
+  font-size: 0.293326rem;
+}
+.talks .nav .content .name .f-left {
+  color: green;
+}
+.talks .nav .content .name .f-right {
+  color: #a8948d;
+}
+.talks .nav .content .text {
+  margin-top: 0.39999rem;
+  color: #000;
+  font-size: 0.26666rem;
+  position: relative;
+}
+.talks .nav .content .text:before,
+.talks .nav .content .text:after {
+  content: "";
+  /*:before和:after必带技能，重要性为满5颗星*/
+  display: block;
+  position: absolute;
+  /*日常绝对定位*/
+  top: -1.3333rem;
+  left: 0.39999rem;
+  width: 0;
+  height: 0;
+  border: 0.213328rem solid transparent;
+}
+.talks .nav .content .text:before {
+  top: -1.46663rem;
+  border-bottom-color: #f5f5f5;
+  z-index: 1;
+}
+.talks .nav .content .text:after {
+  top: -1.519962rem;
+  border-bottom-color: #ccc;
+  z-index: 0;
+}

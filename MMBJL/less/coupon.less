@@ -1,0 +1,29 @@
+@themes: "."; // 路径提取
+@import "@{themes}/common.less";   // 导入变量 less
+
+.secondHeader(#f4483e);
+.commonFooter;
+
+// 详情页
+.menu {
+    padding-top: 20*@rem;
+    font-size: 0;
+    background-color: #fff;
+    a {
+        width: 232*@rem;
+        height:146*@rem;
+        line-height: 146*@rem;
+        text-align: center;
+        border :1px solid #ccc;
+        margin-left:10*@rem;
+        margin-bottom :10*@rem;
+        img {
+            width: 100*@rem;
+            margin-top: 24*@rem;
+            line-height: 146*@rem;
+        }
+    }
+    div:nth-child(3n){
+        
+    }
+}

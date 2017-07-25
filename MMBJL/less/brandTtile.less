@@ -1,0 +1,61 @@
+@themes: "."; // 路径提取
+@import "@{themes}/common.less";   // 导入变量 less
+
+.indexHeader;
+.commonSearch;
+.commonFooter;
+
+// 家电分类列表
+.sort {
+    line-height: 80*@rem;
+    .menu {
+        background-color: #ededed;
+        border : 1px solid #ccc;
+        .top-list {
+            display: block;
+            border-bottom : 2px solid #ccc;
+            color:#000;
+        }
+    }
+    .arrowdown {
+        margin-right:34*@rem;
+    }
+    .arrowdown::before {
+        display: inline-block;
+        transform: rotate(-90deg);
+        font-weight: 700;
+    }
+    h2 {
+        padding-left:34*@rem;
+        font-size: 36*@rem;
+        font-weight: 700;
+    }
+}
+
+//折扣推荐顶部
+.recommend {
+    background: linear-gradient(to bottom ,#fff,#ccc);
+    height : @rem*70;
+    padding : 0 20*@rem;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    line-height: @rem*70;
+    > .f-left {
+        font-size: @rem * 33;
+    }
+}
+
+// 热门品牌排行
+.paihang {
+    background-color: #fff;
+    padding :20*@rem 10*@rem;
+    .niu {
+        text-indent: 10*@rem;
+        height: 74*@rem;
+        background-color: #eeeeee;
+        border: 2px solid #ccc;
+        font-size: 30*@rem;
+        color :#7d380e;
+        line-height: 74*@rem;
+    }
+}

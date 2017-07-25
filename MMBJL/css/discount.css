@@ -1,0 +1,209 @@
+html,
+body {
+  min-width: 320px;
+}
+.topText {
+  height: 1.173304rem;
+  background-color: #ff841d;
+}
+.topText .arrowLeft {
+  width: 1.3333rem;
+  height: 0.639984rem;
+  height: 1.173304rem;
+  line-height: 1.173304rem;
+  font-size: 0.39999x;
+  color: #fff;
+  text-align: center;
+}
+.topText .title {
+  color: #fff;
+  font-size: 0.573319rem;
+  margin: 0 1.3333rem;
+  text-align: center;
+  line-height: 1.173304rem;
+}
+.topText .appdow {
+  text-align: center;
+  width: 1.3333rem;
+  margin-top: 0.13333rem;
+}
+.topText .appdow img {
+  height: 0.879978rem;
+}
+.footer {
+  height: 1.133305rem;
+  margin-top: 0.653317rem;
+}
+.footer .login {
+  font-size: 0.333325rem;
+  color: #000;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  line-height: 0.93331rem;
+}
+.footer .login .lo {
+  width: 30%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.footer .login .top {
+  width: 40%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.footer .login .top img {
+  height: 0.373324rem;
+  vertical-align: sub;
+}
+.footer .dowload {
+  text-align: center;
+  font-size: 0.253327rem;
+  margin: 0.453322rem 0;
+}
+.footer .dowload .app span:first-child {
+  color: red;
+  font-weight: 700;
+}
+.footer .dowload .app span:nth-child(2) {
+  color: #000;
+  font-weight: 700;
+}
+.footer .dowload .dizhi {
+  margin-top: 0.066665rem;
+}
+.shuju {
+  background-color: #fff;
+}
+.shuju .tuijian {
+  padding: 0.26666rem;
+}
+.shuju .tuijian h2 {
+  font-size: 0.506654rem;
+  color: #000;
+}
+.shuju .tuijian .info {
+  font-size: 0.26666rem;
+  padding: 0.53332rem 0;
+  color: #a3a5a5;
+}
+.shuju .tuijian .text p {
+  font-size: 0.39999rem;
+}
+.shuju .tuijian .text .f-right {
+  width: 2.6666rem;
+  text-align: center;
+}
+.shuju .tuijian .text .f-right img {
+  width: 2.13328rem;
+}
+.shuju .tuijian .bigimg {
+  text-align: center;
+}
+.shuju .tuijian .bigimg img {
+  height: 9.3331rem;
+}
+.shuju .tuijian #disstorck {
+  margin: 0 auto;
+  width: 3.653242rem;
+  box-shadow: 0 0 10px #ccc;
+}
+.shuju .tuijian #disstorck li {
+  margin: 0 0.26666rem;
+  border-bottom: 2px dashed #ccc;
+  padding: 0.13333rem 0;
+}
+.shuju .tuijian #disstorck li a {
+  font-size: 0.293326rem;
+  display: block;
+}
+.shuju .tuijian #disstorck li a span {
+  color: #000;
+}
+.shuju .tuijian #disstorck li a span strong {
+  float: right;
+  color: #ff6c00;
+}
+.shuju .tuijian .nowbuy {
+  margin: 0.53332rem 0.13333rem;
+}
+.shuju .tuijian .nowbuy a {
+  display: block;
+  height: 0.79998rem;
+  background-color: #ff9000;
+  color: #fff;
+  text-align: center;
+  font-size: 0.346658rem;
+  line-height: 0.79998rem;
+  border-radius: 0.13333rem;
+}
+.shuju .tuijian .erweima {
+  text-align: center;
+  padding: 0.66665rem 0 0.79998rem 0;
+}
+.shuju .tuijian .erweima img {
+  width: 100%;
+}
+.talk .tit {
+  font-size: 0.39999rem;
+  color: #000;
+  margin-left: 0.26666rem;
+}
+.talk .reply {
+  position: relative;
+  padding: 0.26666rem;
+  text-align: center;
+}
+.talk .reply textarea {
+  height: 2.959926rem;
+  width: 100%;
+  border: 2px solid #ccc;
+  font-size: 0.333325rem;
+}
+.talk .reply .ctrl {
+  height: 0.986642rem;
+  border: 1px solid #ccc;
+  background-color: #fbfbfb;
+  position: absolute;
+  width: 8.93311rem;
+  bottom: 0.306659rem;
+  text-align: center;
+}
+.talk .reply .ctrl .tjdp {
+  width: 2.6666rem;
+  height: 100%;
+  background-color: #ff841d;
+  position: absolute;
+  right: 0;
+  color: #fff;
+  font-size: 0.453322rem;
+}
+.talk .list {
+  padding: 0.26666rem;
+}
+.talk .list .ui-border-b {
+  position: relative;
+  margin: 0.53332rem 0;
+}
+.talk .list .ui-border-b .userimg {
+  position: absolute;
+}
+.talk .list .ui-border-b .userimg img {
+  width: 1.06664rem;
+  border-radius: 0.53332rem;
+}
+.talk .list .ui-border-b .con {
+  margin-left: 1.146638rem;
+  font-size: 0.346658rem;
+}
+.talk .list .ui-border-b .con .time {
+  float: right;
+  font-size: 0.26666rem;
+  color: #a29b96;
+}
+.talk .list .ui-border-b .con .username {
+  float: left;
+  color: #4f97c2;
+}

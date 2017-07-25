@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>慢慢买首页</title>
+    <script src="lib/jquery/jquery-1.12.0.min.js"></script>
+    <script src="lib/art/template.js"></script>
+    <script src='lib/flexible/flexible.js'></script>
+    <script src='lib/flexible/flexible_css.js'></script>
+    <link rel='stylesheet' href='css/basex.css'>
+    <link rel="stylesheet" href="css/bijia.css">
+    <link rel="stylesheet" type="text/css" href="fonts/four-webfont/iconfont.css">
+</head>
+<body>
+    <header id="header">
+        <!--头部logo 下载app 区域-->
+        <div class="logo f-left">
+            <a href="./index.html"><img src="./images/header_logo.png" alt=""></a>
+        </div>
+        <div class="dow f-right"><a href="javascript:;"><img src="./images/header_app.png" alt=""></a></div>
+    </header>
+    <section class="search">
+        <!--搜索区域-->
+        <div class="f-right">
+            <input type="button" value="搜索">
+        </div>
+        <div class="left">
+            <input type="text" name="搜索框" placeholder="请输入你想比价的商品">
+        </div>
+    </section>
+    <!--超值折扣推荐-->
+    <section class="recommend clearfix">
+        <div class="f-left">
+            <a href="index.html">首页></a>
+            <span id="span"><a class="second-title" href="">电视></a></span>
+            <span class="top-menu-nam">电视</span>
+        </div>
+        <div class="f-right">
+            <input type="button" value="筛选">
+        </div>
+    </section>
+    <!--商品详情 大图海报-->
+    <section class="bigtitle">
+        <!--<p class="title">乐视TV(Letv)S50 Air全配版2D 50英寸 全高清LED液晶电视</p>
+        <div class="mess">
+            <img src="images/productctrl.jpg" alt="">
+            <span class="collec">收藏</span>
+        </div>       -->
+    </section>
+
+    <!--比价  详情  参数  评价-->
+    <section class="buy clearfix">
+        <span class="w33 f-left">比价购买</span>
+        <span class="w33 f-left">产品参数</span>
+        <span class="w33 f-left">评价(2322)</span>
+    </section>
+    <section class="gobuy clearfix">
+        <div class="f-left">
+            <span class="logo"><img src="images/slogo.png" alt=""></span>
+            <span class="text"><a href="javascript:;">京东商城</a></span>
+        </div>
+        <div class="f-right">
+            <span>1999.00</span>
+            <a class="gogogo" href="javascript:;"><span >去购买</span></a>
+        </div>
+    </section>
+    <section class="cue">
+        <p>* 实际价格以各网站列出的实时售价为准，我们提供的价格可能有数小时至数日的延迟。</p>
+    </section>
+
+    <!--网友评价-->
+    <section class="eva">
+        <div class="top"><p>网友评价</p></div>
+        <!--<div class="info">
+            <div class="time clearfix">
+                <div class="f-left">bbbbb</div>
+                <div class="f-right">1016/1/1</div>
+            </div>
+            <div class="from">购买自京东商城</div>
+            <p class="text"></p>
+        </div>-->
+    </section>
+    
+    <!--空白-->
+    <section class="kongbai"></section>
+    <!--登录注册返回顶部-->
+    <footer class="footer">
+        <div class="login clearfix">
+            <span class="lo f-left">登录</span>
+            <span class="lo f-left">注册</span>
+            <span class="top f-left"><img src="images/top.jpg" alt="顶部">返回顶部</span>
+        </div>
+        <div class="dowload">
+            <p class="app"><span>手机APP下载</span> <span>慢慢买手机版</span>  -- 掌上比价平台</p>
+            <p class="dizhi">m.manmanbuy.com</p>
+        </div>
+    </footer>
+
+
+    <!--模板-->
+    <script id="title-pro" type="text/html">
+        {{each result as item}}
+        <p class="title">{{item.productName}}</p>
+        <div class="mess">
+            {{#item.productImg}}
+            <span class="collec">收藏</span>
+        </div>  
+        {{/each}}
+    </script>
+    <!--网友评论模板-->
+    <script id="title-text" type="text/html">
+        {{each result as item}}
+        <div class="info">
+            <div class="time clearfix">
+                <div class="f-left">{{item.comName}}</div>
+                <div class="f-right">{{item.comTime}}</div>
+            </div>
+            <div class="from">{{item.comFrom}}</div>
+            <p class="text">{{item.comContent}}</p>
+        </div> 
+        {{/each}}
+    </script>
+
+    <script id="tt-span" type="texl/html">
+        <a class="second-title" href="productlist.html?categoryid={{categoryId}}&category={{category}}">{{category}}</a>
+    </script>
+
+    <script src="js/conmmon.js"></script>
+    <script src="js/bijia.js"></script>
+</body>
+</html>

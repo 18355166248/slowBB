@@ -1,0 +1,49 @@
+@themes: "."; // 路径提取
+@import "@{themes}/common.less";   // 导入变量 less
+
+.secondHeader(@main-color);
+.commonFooter;
+
+// 详细信息
+.shuju {
+    background-color: #fff;
+    .tuijian {
+        .list {
+            height :500*@rem;
+            padding :45*@rem 34*@rem 20*@rem;
+            text-align: center;
+            border-right :1px solid #ccc;
+            border-bottom :1px solid #ccc;
+            .cpxx {
+                display: block;
+            }
+            .pic {
+                height : 266*@rem;
+                img {
+                    height : 266*@rem;
+                }
+            }
+            .txt {
+                text-align: left;
+                p {
+                    font-size : 26*@rem;
+                }
+                p:first-child {
+                    color :#000;
+                    font-weight:700;
+                    height : 68*@rem;
+                }
+                p:nth-child(2) {
+                    color :@price-color;
+                    padding:18*@rem 0 24*@rem;
+                }
+                div {
+                    color : #97959b;
+                }
+            }
+        }
+        .list:nth-child(2n) {
+            border-right :none;
+        }
+    }
+}

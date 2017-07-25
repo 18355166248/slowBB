@@ -1,0 +1,160 @@
+html,
+body {
+  min-width: 320px;
+}
+.topText {
+  height: 1.173304rem;
+  background-color: #f4483e;
+}
+.topText .arrowLeft {
+  width: 1.3333rem;
+  height: 0.639984rem;
+  height: 1.173304rem;
+  line-height: 1.173304rem;
+  font-size: 0.39999x;
+  color: #fff;
+  text-align: center;
+}
+.topText .title {
+  color: #fff;
+  font-size: 0.573319rem;
+  margin: 0 1.3333rem;
+  text-align: center;
+  line-height: 1.173304rem;
+}
+.topText .appdow {
+  text-align: center;
+  width: 1.3333rem;
+  margin-top: 0.13333rem;
+}
+.topText .appdow img {
+  height: 0.879978rem;
+}
+.footer {
+  height: 1.133305rem;
+  margin-top: 0.653317rem;
+}
+.footer .login {
+  font-size: 0.333325rem;
+  color: #000;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  line-height: 0.93331rem;
+}
+.footer .login .lo {
+  width: 30%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.footer .login .top {
+  width: 40%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.footer .login .top img {
+  height: 0.373324rem;
+  vertical-align: sub;
+}
+.footer .dowload {
+  text-align: center;
+  font-size: 0.253327rem;
+  margin: 0.453322rem 0;
+}
+.footer .dowload .app span:first-child {
+  color: red;
+  font-weight: 700;
+}
+.footer .dowload .app span:nth-child(2) {
+  color: #000;
+  font-weight: 700;
+}
+.footer .dowload .dizhi {
+  margin-top: 0.066665rem;
+}
+.cue p {
+  height: 1.439964rem;
+  font-size: 0.346658rem;
+  color: #aeb1b1;
+  text-align: center;
+  line-height: 1.439964rem;
+}
+.menu {
+  background-color: #fff;
+}
+.menu .chide {
+  border-bottom: 0.026666rem solid #ccc;
+  padding: 0.26666rem;
+}
+.menu .chide .f-left img {
+  width: 2.6666rem;
+  height: 2.13328rem;
+}
+.menu .chide .title {
+  margin-left: 2.93326rem;
+  font-size: 0.346658rem;
+  color: #000;
+}
+.menu .chide .title .price {
+  font-weight: 700;
+}
+.menu .chide .title .time {
+  height: 0.293326rem;
+  color: #ff6c00;
+  padding: 0.53332rem 0;
+  font-size: 0.293326rem;
+}
+.mask {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(144, 144, 144, 0.3);
+}
+.mask .midd-img {
+  position: absolute;
+  width: 3.9999rem;
+  height: 3.46658rem;
+  left: 50%;
+  top: 50%;
+  margin-left: -1.99995rem;
+  margin-top: -1.73329rem;
+}
+.mask .midd-img img {
+  width: 3.9999rem;
+  height: 3.46658rem;
+}
+.mask .midd-img div {
+  position: absolute;
+  font-size: 1.19997rem;
+  top: 1.19997rem;
+  color: #c3bebe;
+}
+.mask .midd-img .prev {
+  left: -1.86662rem;
+}
+.mask .midd-img .next {
+  right: -1.86662rem;
+  transform: rotate(180deg);
+}
+.backTop {
+  position: fixed;
+  right: 0.26666rem;
+  bottom: 1.3333rem;
+  width: 1.06664rem;
+  height: 1.06664rem;
+  z-index: 2;
+  border-radius: 0.53332rem;
+  background-color: #7f7f7f;
+}
+.backTop div {
+  font-size: 0.79998rem;
+  color: #ccc;
+  transform: rotate(-45deg);
+  margin-top: 0.13333rem;
+}
+.backTop div:before {
+  margin-left: 0.13333rem;
+}

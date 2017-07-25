@@ -1,0 +1,235 @@
+html,
+body {
+  min-width: 320px;
+}
+.topText {
+  height: 1.173304rem;
+  background-color: #f4483e;
+}
+.topText .arrowLeft {
+  width: 1.3333rem;
+  height: 0.639984rem;
+  height: 1.173304rem;
+  line-height: 1.173304rem;
+  font-size: 0.39999x;
+  color: #fff;
+  text-align: center;
+}
+.topText .title {
+  color: #fff;
+  font-size: 0.573319rem;
+  margin: 0 1.3333rem;
+  text-align: center;
+  line-height: 1.173304rem;
+}
+.topText .appdow {
+  text-align: center;
+  width: 1.3333rem;
+  margin-top: 0.13333rem;
+}
+.topText .appdow img {
+  height: 0.879978rem;
+}
+.footer {
+  height: 1.133305rem;
+  margin-top: 0.653317rem;
+}
+.footer .login {
+  font-size: 0.333325rem;
+  color: #000;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  line-height: 0.93331rem;
+}
+.footer .login .lo {
+  width: 30%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.footer .login .top {
+  width: 40%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.footer .login .top img {
+  height: 0.373324rem;
+  vertical-align: sub;
+}
+.footer .dowload {
+  text-align: center;
+  font-size: 0.253327rem;
+  margin: 0.453322rem 0;
+}
+.footer .dowload .app span:first-child {
+  color: red;
+  font-weight: 700;
+}
+.footer .dowload .app span:nth-child(2) {
+  color: #000;
+  font-weight: 700;
+}
+.footer .dowload .dizhi {
+  margin-top: 0.066665rem;
+}
+.menu {
+  background-color: #fff;
+}
+.menu #wrapper {
+  border-bottom: 5px solid #f8f8f8;
+  position: relative;
+  overflow: hidden;
+}
+.menu #wrapper .list {
+  height: 1.06664rem;
+  font-size: 0.319992rem;
+}
+.menu #wrapper .list li a {
+  display: inline-block;
+  margin: 0 0.319992rem;
+  line-height: 1.06664rem;
+  box-sizing: border-box;
+}
+.menu #wrapper .list li.showRed a {
+  border-bottom: 2px solid red;
+  color: red;
+}
+.menu #wrapper .download {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #fff;
+}
+.menu #wrapper .download::before {
+  display: block;
+  height: 1.06664rem;
+  width: 1.06664rem;
+  font-size: 1.06664rem;
+}
+.xiangqing {
+  background-color: #fff;
+}
+.xiangqing .list .shangping {
+  padding: 0.26666rem 0.13333rem;
+  border-bottom: 0.159996rem solid #f8f8f8;
+}
+.xiangqing .list .pic img {
+  width: 3.46658rem;
+}
+.xiangqing .list .txt {
+  font-size: 0.346658rem;
+  margin-left: 3.59991rem;
+}
+.xiangqing .list .txt p {
+  color: #000;
+}
+.xiangqing .list .txt .price {
+  color: #fc043b;
+  margin: 0.319992rem 0 0.239994rem 0;
+  font-size: 0.479988rem;
+}
+.xiangqing .list .txt .price i {
+  font-style: normal;
+  font-size: 0.319992rem;
+}
+.xiangqing .list .txt .price em {
+  font-size: 0.213328rem;
+}
+.xiangqing .list .txt .price del {
+  font-size: 0.239994rem;
+  color: #b4b6ae;
+  margin-left: 0.26666rem;
+}
+.xiangqing .list .txt .rate .juan {
+  font-size: 0.293326rem;
+  color: #fc043b;
+  margin-left: 0.26666rem;
+}
+.xiangqing .list .txt .rate .juan .bar {
+  display: inline-block;
+}
+.xiangqing .list .txt .rate .juan .bar i {
+  position: relative;
+  display: inline-block;
+  width: 2.13328rem;
+  height: 0.506654rem;
+  border: 2px solid #fc043b;
+  background-color: #ffb7b7;
+  border-radius: 0.253327rem;
+  top: 0.066665rem;
+  overflow: hidden;
+}
+.xiangqing .list .txt .rate .juan .bar i em {
+  height: 0.506654rem;
+  position: absolute;
+  top: -0.053332rem;
+  display: inline-block;
+  background-color: #fc043b;
+  border-radius: 0.239994rem;
+  color: #fff;
+  font-size: 0.239994rem;
+}
+.xiangqing .list .txt .rate .juan .bar i span {
+  width: 100%;
+  height: 100%;
+  line-height: 1;
+  top: 0.079998rem;
+  left: 0;
+  color: #fff;
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+}
+.xiangqing .list .txt .rate .juan .bar b {
+  margin-left: 0.26666rem;
+  font-weight: 400;
+}
+.xiangqing .list .txt .draw {
+  margin-top: 0.293326rem;
+}
+.xiangqing .list .txt .draw span:first-child {
+  overflow: hidden;
+  display: inline-block;
+  width: 3.706574rem;
+  height: 0.66665rem;
+  line-height: 0.613318rem;
+  border: 0.039999rem dotted pink;
+}
+.xiangqing .list .txt .draw span:first-child a {
+  text-align: center;
+  width: 3.706574rem;
+  color: #e63d39;
+  font-size: 0.346658rem;
+  padding: 0 0.213328rem;
+}
+.xiangqing .list .txt .draw span:nth-child(2) a {
+  font-size: 0.293326rem;
+  color: #fff;
+  background-color: #ff5e5d;
+  padding: 0.159996rem 0.13333rem;
+  border-radius: 0.13333rem;
+}
+.xiangqing .list a {
+  display: inline-block;
+}
+.backTop {
+  position: fixed;
+  right: 0.26666rem;
+  bottom: 1.3333rem;
+  width: 1.06664rem;
+  height: 1.06664rem;
+  z-index: 2;
+  border-radius: 0.53332rem;
+  background-color: #7f7f7f;
+}
+.backTop div {
+  font-size: 0.79998rem;
+  color: #ccc;
+  transform: rotate(-45deg);
+  margin-top: 0.13333rem;
+}
+.backTop div:before {
+  margin-left: 0.13333rem;
+}

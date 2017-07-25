@@ -1,0 +1,116 @@
+html,
+body {
+  min-width: 320px;
+}
+.topText {
+  height: 1.173304rem;
+  background-color: #ff841d;
+}
+.topText .arrowLeft {
+  width: 1.3333rem;
+  height: 0.639984rem;
+  height: 1.173304rem;
+  line-height: 1.173304rem;
+  font-size: 0.39999x;
+  color: #fff;
+  text-align: center;
+}
+.topText .title {
+  color: #fff;
+  font-size: 0.573319rem;
+  margin: 0 1.3333rem;
+  text-align: center;
+  line-height: 1.173304rem;
+}
+.topText .appdow {
+  text-align: center;
+  width: 1.3333rem;
+  margin-top: 0.13333rem;
+}
+.topText .appdow img {
+  height: 0.879978rem;
+}
+.footer {
+  height: 1.133305rem;
+  margin-top: 0.653317rem;
+}
+.footer .login {
+  font-size: 0.333325rem;
+  color: #000;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  line-height: 0.93331rem;
+}
+.footer .login .lo {
+  width: 30%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.footer .login .top {
+  width: 40%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.footer .login .top img {
+  height: 0.373324rem;
+  vertical-align: sub;
+}
+.footer .dowload {
+  text-align: center;
+  font-size: 0.253327rem;
+  margin: 0.453322rem 0;
+}
+.footer .dowload .app span:first-child {
+  color: red;
+  font-weight: 700;
+}
+.footer .dowload .app span:nth-child(2) {
+  color: #000;
+  font-weight: 700;
+}
+.footer .dowload .dizhi {
+  margin-top: 0.066665rem;
+}
+.shuju {
+  background-color: #fff;
+}
+.shuju .tuijian .list {
+  height: 6.6665rem;
+  padding: 0.599985rem 0.453322rem 0.26666rem;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.shuju .tuijian .list .cpxx {
+  display: block;
+}
+.shuju .tuijian .list .pic {
+  height: 3.546578rem;
+}
+.shuju .tuijian .list .pic img {
+  height: 3.546578rem;
+}
+.shuju .tuijian .list .txt {
+  text-align: left;
+}
+.shuju .tuijian .list .txt p {
+  font-size: 0.346658rem;
+}
+.shuju .tuijian .list .txt p:first-child {
+  color: #000;
+  font-weight: 700;
+  height: 0.906644rem;
+}
+.shuju .tuijian .list .txt p:nth-child(2) {
+  color: #ff6c00;
+  padding: 0.239994rem 0 0.319992rem;
+}
+.shuju .tuijian .list .txt div {
+  color: #97959b;
+}
+.shuju .tuijian .list:nth-child(2n) {
+  border-right: none;
+}

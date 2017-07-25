@@ -1,0 +1,32 @@
+@themes: "."; // 路径提取
+@import "@{themes}/common.less";   // 导入变量 less
+
+.secondHeader(@main-color);
+.commonFooter;
+
+// 导航 菜单 详情
+.nav {
+    padding: 30*@rem;
+    background-color: #fff;
+    .middle-nav {
+        width: 570*@rem;
+        margin: 30*@rem auto;
+        .wangzhan {
+            padding :26*@rem 14*@rem;
+            display: inline-block;
+            height : 84*@rem;
+            line-height: 40*@rem;
+            border: 2*@rem solid #ccc;
+            font-size: 32*@rem;
+            margin:0 10*@rem 10*@rem 0;
+            background-color: #f4f4f4;
+            text-align: center;
+            img {
+                display: inline-block;
+                width : 32*@rem;
+                vertical-align: middle;
+                margin-bottom: 10*@rem;
+            }
+        }
+    }
+}

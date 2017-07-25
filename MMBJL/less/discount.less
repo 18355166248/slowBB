@@ -1,0 +1,149 @@
+@themes: "."; // 路径提取
+@import "@{themes}/common.less";   // 导入变量 less
+
+.secondHeader(@main-color);
+.commonFooter;
+
+
+//折扣下列详情
+.shuju {
+    background-color: #fff;
+    .tuijian {
+        padding :20*@rem;
+        h2 {
+            font-size:38*@rem;
+            color :#000;
+        }
+        .info {
+            font-size:20*@rem;
+            padding:40*@rem 0;
+            color: #a3a5a5;
+        }
+        .text {
+            p {
+                font-size: 30*@rem;
+            }
+            .f-right {
+                width: 200*@rem;
+                text-align: center;
+                img {
+                    width: 160*@rem;
+                }
+            }
+        }
+        .bigimg {
+            text-align: center;
+            img {
+                height: 700*@rem;
+            }
+        } // 地区 有货信息
+         #disstorck {
+            margin:0 auto;
+            width: 274*@rem;
+            box-shadow: 0 0 10px #ccc;
+            li {
+                margin :0 20*@rem;
+                border-bottom:2px dashed #ccc;
+                padding: 10*@rem 0;
+                a {
+                    font-size: 22*@rem;
+                    display: block;
+                    span {
+                        color :#000;
+                        strong {
+                            float: right;
+                            color :@price-color;
+                        }
+                    }
+                }
+            }
+        }
+        .nowbuy {
+            margin: 40*@rem 10*@rem;
+            a {
+                display: block;
+                height :60*@rem;
+                background-color: #ff9000;
+                color :#fff;
+                text-align: center;
+                font-size: 26*@rem;
+                line-height: 60*@rem;
+                border-radius: 10*@rem;
+            }
+        }
+        .erweima {
+            text-align: center;
+            padding:50*@rem 0 60*@rem 0;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+// 讨论区 
+.talk {
+    .tit {
+        font-size :30*@rem;
+        color :#000;
+        margin-left:  20*@rem;
+    }
+    .reply {
+        // height: 200*@rem;
+        position: relative;
+        padding:20*@rem;
+        text-align: center;
+        textarea {
+            height: 222*@rem;
+            width: 100%;
+            
+            border : 2px solid #ccc;
+            font-size: 25*@rem;
+        }
+        .ctrl {
+            height: 74*@rem;
+            border:1px solid #ccc;
+            background-color: #fbfbfb;
+            position: absolute;
+            width: 670*@rem;
+            bottom :23*@rem;
+            text-align: center;
+            .tjdp {
+                width: 200*@rem;
+                height: 100%;
+                background-color: #ff841d;
+                position: absolute;
+                right: 0;
+                color:#fff;
+                font-size: 34*@rem;
+            }
+        }
+    }
+    .list {
+        padding :20*@rem;
+        .ui-border-b {
+            position: relative;
+            margin:40*@rem 0;
+            .userimg {
+                position: absolute;
+                img {
+                    width: 80*@rem;
+                    border-radius: 40*@rem;
+                }
+            }
+            .con {
+                margin-left: 86*@rem;
+                font-size: 26*@rem;
+                .time {
+                    float: right;
+                    font-size: 20*@rem;
+                    color :#a29b96;
+                }
+                .username {
+                    float: left;
+                    color :#4f97c2;
+                }
+            }
+        }
+    }
+}

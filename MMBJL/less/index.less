@@ -1,0 +1,100 @@
+@themes: "."; // 路径提取
+@import "@{themes}/common.less";    //导入公共less
+
+.indexHeader;
+.commonSearch;
+.commonFooter;
+
+// 菜单 导航栏
+.menu {
+    padding-top: 30*@rem;
+    background-color: #fff;
+    > .menu-deta {
+        overflow: hidden;
+        > li {
+            text-align: center;
+            padding-top: 6*@rem;
+            padding-bottom: 24*@rem;
+            background-color: #fff;
+            > a {
+                > img {
+                    height: 101.5*@rem;
+                }
+                > p {
+                    margin-top: 6*@rem;
+                    font-size: 22*@rem;
+                    color:#000; 
+                }
+            }
+        }
+    }
+}
+
+//折扣推荐顶部
+.recommend {
+    margin-top: 10*@rem;
+    height : @rem*70;
+    background-color: @main-color;
+    padding : 0 20*@rem;
+    line-height: @rem*70;
+    > .f-left {
+        font-size: @rem * 33;
+        color : #fff;
+    }
+    > .f-right {
+        > img {
+            height : 39 * @rem;
+            margin-top: 16*@rem;
+        }
+    }
+}
+//折扣下列详情
+.shuju {
+    background-color: #fff;
+    > .tuijian {
+        > li {            
+            padding : 30*@rem 8*@rem;
+            border-bottom: 1px solid #ccc;
+            > a {
+                display: block;
+                overflow: hidden;
+                > .f-left {
+                    width:200*@rem;
+                    > img {
+                        width: 200*@rem;
+                    }
+                }
+                > .txt {
+                    margin-left: 210*@rem;
+                    > p {
+                        font-size: 27*@rem;
+                        margin-bottom: 90*@rem;
+                        > span {
+                            color: @price-color;
+                        }
+                    }
+                    > .time {
+                        > span  {
+                            font-size: 20*@rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    > .more {
+        margin : 0 20*@rem;
+        height : 80*@rem;
+        input[type="submit"] {
+            width: 100%;
+            display: block;
+            height : 60*@rem;
+            border: 2px solid #ccc;
+            font-size: 25*@rem;
+            border-radius: 5*@rem;
+            margin-top: 20 * @rem;
+            background-color: #fff;
+        }
+    }
+}
+

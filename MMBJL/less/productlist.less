@@ -1,0 +1,126 @@
+@themes: "."; // 路径提取
+@import "@{themes}/common.less";   // 导入变量 less
+
+.indexHeader;
+.commonSearch;
+.commonCommond;
+.commonFooter;
+
+// 菜单 导航栏
+.menu {
+    padding-top: 30*@rem;
+    background-color: #fff;
+    > .menu-deta {
+        overflow: hidden;
+        > li {
+            text-align: center;
+            padding-top: 6*@rem;
+            padding-bottom: 24*@rem;
+            background-color: #fff;
+            > a {
+                > img {
+                    height: 101.5*@rem;
+                }
+                > p {
+                    margin-top: 6*@rem;
+                    font-size: 22*@rem;
+                    color:#000; 
+                }
+            }
+        }
+    }
+}
+
+//折扣推荐顶部
+// .recommend {
+//     padding-top: 10*@rem;
+//     height : @rem*70;
+//     padding : 0 20*@rem;
+//     border-top: 1px solid #ccc;
+//     border-bottom: 1px solid #ccc;
+//     line-height: @rem*70;
+//     > .f-left {
+//         font-size: @rem * 33;
+//     }
+//     > .f-right {
+//         > input {
+//             display: inline-block;
+//             width: 122*@rem;
+//             border: 1px solid #ccc;
+//             font-size: 26*@rem;
+//             border-radius: 7px;
+//             height : 58 * @rem;
+//             box-shadow: 2px 2px 5px #ccc;
+//             margin-top: 3*@rem;
+//         }
+//     }
+// }
+//折扣下列详情
+.shuju {
+    background-color: #fff;
+    > .tuijian {
+        > li {            
+            padding : 30*@rem 8*@rem;
+            > a {
+                display: block;
+                overflow: hidden;
+                > .f-left {
+                    width:200*@rem;
+                    > img {
+                        width: 200*@rem;
+                    }
+                }
+                > .txt {
+                    margin-left: 210*@rem;
+                    > p {
+                        font-size: 27*@rem;
+                        > span {
+                            color: @price-color;
+                        }
+                    }
+                    p:first-child {
+                        margin-bottom: 20*@rem;
+                    }
+                    p:nth-child(2) {
+                        color: red;
+                    }
+                    > .time {
+                        margin-top: 5*@rem;
+                        > span  {
+                            font-size: 16*@rem;
+                            color: #ccc;
+                            margin-left:10*@rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .page {
+        height : 80*@rem;
+        line-height: 80*@rem;
+        font-size: 20*@rem;
+        color :#000;
+        width:100%;
+        span {
+            display: inline-block;
+            text-align: center;
+        }
+        .bo {
+            a {
+                height: 68*@rem;
+                width:164*@rem;
+                background-color: #e4e4e4;
+                border: 1px solid #ccc;
+                padding:10*@rem 15*@rem;;
+            }
+        }
+        .pageNum {
+            select {
+                width: 180*@rem;
+                height:60*@rem;
+            }
+        }
+    }
+}
+

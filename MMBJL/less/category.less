@@ -1,0 +1,44 @@
+@themes: "."; // 路径提取
+@import "@{themes}/common.less";   // 导入变量 less
+
+.indexHeader;
+.commonSearch;
+.commonFooter;
+
+// 家电分类列表
+.sort {
+    line-height: 80*@rem;
+    .menu {
+        background-color: #ededed;
+        border : 1px solid #ccc;
+        .top-list {
+            display: block;
+            border-bottom : 2px solid #ccc;
+        }
+    }
+    .arrowdown {
+        margin-right:34*@rem;
+    }
+    .arrowdown::before {
+        display: inline-block;
+        transform: rotate(-90deg);
+        font-weight: 700;
+    }
+    h2 {
+        padding-left:34*@rem;
+        font-size: 36*@rem;
+        font-weight: 700;
+    }
+    .list {
+        text-align: center;        
+        li {
+            font-size: 25*@rem;
+            border-right :2px solid #ccc;
+            border-bottom :2px solid #ccc;
+            background-color: #fff;
+        }
+        li:nth-child(3n) {
+            border-right :none;
+        }
+    }
+}

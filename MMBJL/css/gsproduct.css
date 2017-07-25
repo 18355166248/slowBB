@@ -1,0 +1,195 @@
+html,
+body {
+  min-width: 320px;
+}
+.topText {
+  height: 1.173304rem;
+  background-color: #ff841d;
+}
+.topText .arrowLeft {
+  width: 1.3333rem;
+  height: 0.639984rem;
+  height: 1.173304rem;
+  line-height: 1.173304rem;
+  font-size: 0.39999x;
+  color: #fff;
+  text-align: center;
+}
+.topText .title {
+  color: #fff;
+  font-size: 0.573319rem;
+  margin: 0 1.3333rem;
+  text-align: center;
+  line-height: 1.173304rem;
+}
+.topText .appdow {
+  text-align: center;
+  width: 1.3333rem;
+  margin-top: 0.13333rem;
+}
+.topText .appdow img {
+  height: 0.879978rem;
+}
+.footer {
+  height: 1.133305rem;
+  margin-top: 0.653317rem;
+}
+.footer .login {
+  font-size: 0.333325rem;
+  color: #000;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  line-height: 0.93331rem;
+}
+.footer .login .lo {
+  width: 30%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.footer .login .top {
+  width: 40%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.footer .login .top img {
+  height: 0.373324rem;
+  vertical-align: sub;
+}
+.footer .dowload {
+  text-align: center;
+  font-size: 0.253327rem;
+  margin: 0.453322rem 0;
+}
+.footer .dowload .app span:first-child {
+  color: red;
+  font-weight: 700;
+}
+.footer .dowload .app span:nth-child(2) {
+  color: #000;
+  font-weight: 700;
+}
+.footer .dowload .dizhi {
+  margin-top: 0.066665rem;
+}
+.backTop {
+  position: fixed;
+  right: 0.26666rem;
+  bottom: 1.3333rem;
+  width: 1.06664rem;
+  height: 1.06664rem;
+  z-index: 2;
+  border-radius: 0.53332rem;
+  background-color: #7f7f7f;
+}
+.backTop div {
+  font-size: 0.79998rem;
+  color: #ccc;
+  transform: rotate(-45deg);
+  margin-top: 0.13333rem;
+}
+.backTop div:before {
+  margin-left: 0.13333rem;
+}
+.gsproduct .menu {
+  background-color: #fff;
+  position: relative;
+  height: 0.986642rem;
+  border-bottom: 0.026666rem solid #ccc;
+}
+.gsproduct .menu .area {
+  margin-right: 1.19997rem;
+}
+.gsproduct .menu .area .city {
+  font-size: 0.39999rem;
+  color: #000;
+}
+.gsproduct .menu .area .city li {
+  text-align: center;
+  line-height: 0.986642rem;
+  height: 0.986642rem;
+}
+.gsproduct .menu .search1 {
+  width: 1.19997rem;
+  border-left: 2px solid #ccc;
+  height: 0.959976rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.gsproduct .menu .search1 .fangda {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.gsproduct .menu .search1 .fangda::before {
+  display: block;
+  font-size: 0.93331rem;
+  position: absolute;
+  left: 0;
+}
+.gsproduct .menu .down-up {
+  z-index: 3;
+  width: 100%;
+  position: absolute;
+  top: 0.973309rem;
+  left: 0;
+  background-color: #fff;
+}
+.gsproduct .menu .down-up .content li {
+  padding: 0 0.26666rem;
+  font-size: 0.39999rem;
+  color: #000;
+  line-height: 0.959976rem;
+  height: 0.959976rem;
+  border-bottom: 0.026666rem solid #ccc;
+}
+.gsproduct .menu .down-up .content li .duihao {
+  font-size: 0.39999rem;
+  color: #ff6c00;
+}
+.mess .nav {
+  width: 98%;
+  margin: 0 auto;
+}
+.mess .nav .shang {
+  overflow: hidden;
+}
+.mess .nav .shang .liv {
+  padding: 0 0.13333rem;
+  width: 94%;
+  display: inline-block;
+  margin: 0.13333rem;
+  background-color: #fff;
+}
+.mess .nav .shang .liv .img-now {
+  margin-top: 0.13333rem;
+}
+.mess .nav .shang .liv .img-now img {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+.mess .nav .shang .liv .title-1 {
+  font-size: 0.293326rem;
+  color: #000;
+}
+.mess .nav .shang .liv .price span:first-child {
+  font-size: 0.373324rem;
+  color: #ff6c00;
+  margin-top: 0.13333rem;
+}
+.mess .nav .shang .liv .price span:nth-child(2) {
+  display: block;
+  width: 1.3333rem;
+  height: 0.613318rem;
+  background-color: #ff9501;
+  color: #fff;
+  border-radius: 0.13333rem;
+  font-size: 0.319992rem;
+  line-height: 0.613318rem;
+  text-align: center;
+  margin-bottom: 0.106664rem;
+}

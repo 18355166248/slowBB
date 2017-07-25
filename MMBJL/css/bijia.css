@@ -1,0 +1,261 @@
+html,
+body {
+  min-width: 320px;
+}
+.footer {
+  height: 1.133305rem;
+  margin-top: 0.653317rem;
+}
+.footer .login {
+  font-size: 0.333325rem;
+  color: #000;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  line-height: 0.93331rem;
+}
+.footer .login .lo {
+  width: 30%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.footer .login .top {
+  width: 40%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.footer .login .top img {
+  height: 0.373324rem;
+  vertical-align: sub;
+}
+.footer .dowload {
+  text-align: center;
+  font-size: 0.253327rem;
+  margin: 0.453322rem 0;
+}
+.footer .dowload .app span:first-child {
+  color: red;
+  font-weight: 700;
+}
+.footer .dowload .app span:nth-child(2) {
+  color: #000;
+  font-weight: 700;
+}
+.footer .dowload .dizhi {
+  margin-top: 0.066665rem;
+}
+#header {
+  background-color: #ff841d;
+  height: 1.3333rem;
+}
+#header > .logo {
+  height: 0.999975rem;
+  padding-top: 0.386657rem;
+  margin-left: 0.439989rem;
+}
+#header > .logo > a > img {
+  height: 0.613318rem;
+}
+#header > .dow {
+  height: 0.93331rem;
+  padding-top: 0.186662rem;
+  padding-right: 0.186662rem;
+}
+#header > .dow > a > img {
+  height: 0.93331rem;
+}
+.search {
+  height: 1.373299rem;
+  background-color: #fff;
+  padding: 0 0.26666rem;
+}
+.search > .left {
+  margin-right: 1.86662rem;
+}
+.search > .left > input[type="text"] {
+  width: 100%;
+  height: 0.79998rem;
+  border-radius: 0.39999rem;
+  background-color: #f1f1f1;
+  font-size: 0.333325rem;
+  margin-top: 0.26666rem;
+  text-indent: 0.39999rem;
+}
+.search > .f-right {
+  width: 1.86662rem;
+}
+.search > .f-right > input {
+  height: 0.79998rem;
+  width: 1.679958rem;
+  border-radius: 0.39999rem;
+  margin-top: 0.26666rem;
+  font-size: 0.413323rem;
+  color: #fff;
+  background-color: #ff841d;
+  margin-left: 0.199995rem;
+}
+.recommend {
+  background: linear-gradient(to bottom, #fff, #f7f7f7);
+  padding-top: 0.13333rem;
+  height: 0.959976rem;
+  padding: 0 0.26666rem;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  line-height: 0.93331rem;
+}
+.recommend > .f-left {
+  font-size: 0.439989rem;
+}
+.recommend > .f-right > input {
+  display: inline-block;
+  width: 1.626626rem;
+  border: 1px solid #ccc;
+  font-size: 0.346658rem;
+  border-radius: 7px;
+  height: 0.746648rem;
+  box-shadow: 2px 2px 5px #ccc;
+  margin-top: 0.026666rem;
+  background: linear-gradient(to bottom, #f7f7f7, #fff);
+}
+.menu {
+  padding-top: 0.39999rem;
+  background-color: #fff;
+}
+.menu > .menu-deta {
+  overflow: hidden;
+}
+.menu > .menu-deta > li {
+  text-align: center;
+  padding-top: 0.079998rem;
+  padding-bottom: 0.319992rem;
+  background-color: #fff;
+}
+.menu > .menu-deta > li > a > img {
+  height: 1.3532995rem;
+}
+.menu > .menu-deta > li > a > p {
+  margin-top: 0.079998rem;
+  font-size: 0.293326rem;
+  color: #000;
+}
+.bigtitle {
+  background-color: #fff;
+}
+.bigtitle .title {
+  text-align: center;
+  padding: 0.586652rem;
+  font-size: 0.426656rem;
+  color: #000;
+}
+.bigtitle .mess {
+  position: relative;
+  text-align: center;
+}
+.bigtitle .mess .collec {
+  display: inline-block;
+  height: 1.039974rem;
+  width: 1.039974rem;
+  border-radius: 0.519987rem;
+  background-color: #96d900;
+  color: #fff;
+  font-size: 0.346658rem;
+  text-align: center;
+  line-height: 1.039974rem;
+  position: absolute;
+  bottom: 0;
+  right: 0.66665rem;
+}
+.buy {
+  border-top: 2px solid #c3580e;
+  border-bottom: 2px solid #c3580e;
+}
+.buy span {
+  display: inline-block;
+  text-align: center;
+  height: 0.853312rem;
+  font-size: 0.39999rem;
+  color: #fff;
+  line-height: 0.853312rem;
+  background-color: #ffc62d;
+  border-right: 2px solid #c3580e;
+}
+.buy span:first-child {
+  background-color: #ff9b1a;
+}
+.buy span:last-child {
+  border-right: none;
+}
+.gobuy {
+  overflow: hidden;
+  height: 1.173304rem;
+  line-height: 1.173304rem;
+  border-bottom: 2px solid #ccc;
+  background-color: #fff;
+}
+.gobuy span {
+  font-size: 0.426656rem;
+  color: #000;
+}
+.gobuy span img {
+  height: 0.426656rem;
+  line-height: 0.426656rem;
+  margin-bottom: 0.039999rem;
+  vertical-align: middle;
+}
+.gobuy .logo {
+  margin: 0 0.186662rem;
+}
+.gobuy .f-right span:first-child {
+  color: #c90000;
+}
+.gobuy .f-right .gogogo {
+  display: inline-block;
+  width: 1.3333rem;
+  height: 0.66665rem;
+  border-radius: 0.066665rem;
+  color: #fff;
+  text-align: center;
+  margin-left: 0.13333rem;
+}
+.gobuy .f-right .gogogo span {
+  color: #fff;
+  height: 0.66665rem;
+  display: inline-block;
+  line-height: 0.66665rem;
+  background-color: #ff5500;
+  border-radius: 5px;
+  font-size: 0.333325rem;
+}
+.cue {
+  padding: 0 0.239994rem;
+  background-color: #fff;
+  border-bottom: 5px solid #747474;
+}
+.cue p {
+  height: 1.519962rem;
+  font-size: 0.319992rem;
+  color: #ccc;
+  padding-top: 0.319992rem;
+}
+.eva .top p {
+  text-align: center;
+  font-size: 0.346658rem;
+  color: #000;
+  height: 0.879978rem;
+  line-height: 0.879978rem;
+  background-color: #dbdbdb;
+}
+.eva .info {
+  background-color: #fff;
+  padding: 0.426656rem 0.239994rem;
+  font-size: 0.26666rem;
+}
+.eva .info .from {
+  text-align: right;
+}
+.eva .info .text {
+  margin-top: 0.13333rem;
+  color: #000;
+}

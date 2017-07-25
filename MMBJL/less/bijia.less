@@ -1,0 +1,170 @@
+@themes: "."; // 路径提取
+@import "@{themes}/common.less";   // 导入变量 less
+
+.commonFooter;
+.indexHeader;
+.commonSearch;
+.commonCommond;
+
+// 菜单 导航栏
+.menu {
+    padding-top: 30*@rem;
+    background-color: #fff;
+    > .menu-deta {
+        overflow: hidden;
+        > li {
+            text-align: center;
+            padding-top: 6*@rem;
+            padding-bottom: 24*@rem;
+            background-color: #fff;
+            > a {
+                > img {
+                    height: 101.5*@rem;
+                }
+                > p {
+                    margin-top: 6*@rem;
+                    font-size: 22*@rem;
+                    color:#000; 
+                }
+            }
+        }
+    }
+}
+
+
+
+//宝贝详情
+.bigtitle { 
+    background-color: #fff;
+    .title {
+        text-align: center;
+        padding : 44*@rem;
+        font-size : 32*@rem;
+        color:#000;
+    }
+    .mess {
+        position: relative;
+        text-align: center;
+        .collec {
+            display: inline-block;
+            height:78*@rem;
+            width:78*@rem;
+            border-radius: 39*@rem;
+            background-color: #96d900;
+            color: #fff;
+            font-size: 26*@rem;
+            text-align: center;
+            line-height: 78*@rem;
+            position: absolute;
+            bottom:0;
+            right : 50*@rem;
+    }
+    }
+    
+}
+
+
+// 比价  详情  参数  评价
+.buy {
+    border-top: 2px solid #c3580e;
+    border-bottom: 2px solid #c3580e;
+    span {
+        display: inline-block;
+        text-align: center;
+        height:64*@rem;
+        font-size:30*@rem;
+        color:#fff;
+        line-height: 64*@rem;
+        background-color: #ffc62d;
+        border-right : 2px solid #c3580e;
+    }
+    span:first-child {
+        background-color: #ff9b1a;
+    }
+    span:last-child {
+        border-right:none;
+    }
+}
+.gobuy {
+    overflow: hidden;
+    height: 88*@rem;
+    line-height: 88*@rem;
+    border-bottom:2px solid #ccc;
+    background-color: #fff;
+    span {
+        font-size:32*@rem;
+        color :#000;
+        img {
+            height :32*@rem;
+            line-height: 32*@rem;
+            margin-bottom: 3*@rem;
+            vertical-align: middle;
+        }
+    }
+    .logo {
+        margin: 0 14*@rem;
+    }
+    .f-right {
+        span:first-child {
+            color: #c90000;
+        }
+        .gogogo {
+            display:inline-block;
+            width: 100*@rem;
+            height: 50*@rem;
+            border-radius: 5*@rem; 
+            color :#fff;
+            text-align: center;
+            margin-left:10*@rem;
+            span {
+                color:#fff;
+                height: 50*@rem;
+                display: inline-block;
+                line-height: 50*@rem;
+                background-color: #ff5500;
+                border-radius: 5px;
+                font-size:25*@rem;
+            }
+        }
+    }
+}
+.cue {
+    padding:0 18*@rem;
+    background-color: #fff;
+    border-bottom :5px solid #747474;
+    p {
+        height :114*@rem;
+        font-size :24*@rem;
+        color :#ccc;
+        padding-top: 24*@rem;
+    }
+}
+
+// 网友评价
+.eva {
+    .top {
+        p {
+            text-align: center;
+            font-size :26*@rem;
+            color:#000;
+            height: 66*@rem;
+            line-height: 66*@rem;
+            background-color: #dbdbdb;
+        }
+    }
+    .info {
+        background-color: #fff;
+        padding : 32*@rem 18*@rem;
+        font-size: 20*@rem;
+        // .time {
+        // }
+        .from {
+            text-align: right;
+        }
+        .text {
+            margin-top:10*@rem;
+            color:#000;
+        }
+    }
+}
+

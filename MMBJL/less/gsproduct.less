@@ -1,0 +1,124 @@
+@themes: "."; // 路径提取
+@import "@{themes}/common.less";   // 导入变量 less
+
+.secondHeader(@main-color);
+.commonFooter;
+.commonBack;
+
+
+// 菜单 详情页
+.gsproduct {
+    .menu {
+        background-color: #fff;
+        position: relative;
+        height: 74*@rem;
+        border-bottom : 2*@rem solid #ccc;
+        .area {
+            margin-right: 90*@rem;
+            .city {
+                font-size: 30*@rem;
+                color :#000;
+                li {
+                    text-align: center;
+                    line-height: 74*@rem;
+                    height: 74*@rem;
+                }
+            }            
+        }
+        .search1 {
+            width:90*@rem;
+            border-left :2px solid #ccc;
+            height: 72*@rem;
+            position: absolute;
+            right: 0;
+            top: 0;
+            .fangda {
+                width: 100%;
+                height: 100%;
+                position: relative;
+            }
+            .fangda::before {
+                display: block;
+                font-size: 70*@rem;
+                position: absolute;
+                left: 0;
+            }
+        }
+
+        // 下拉
+        .down-up {
+            z-index: 3;
+            width: 100%;
+            position: absolute;
+            top:73*@rem;
+            left: 0;
+            background-color: #fff;
+            .content {
+                li {
+                    padding: 0 20*@rem;
+                    font-size: 30*@rem;
+                    color :#000;
+                    line-height: 72*@rem;
+                    height: 72*@rem;
+                    border-bottom : 2*@rem solid #ccc;
+                    .duihao {
+                        font-size: 30*@rem;
+                        color :@price-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 详情商品信息
+.mess {
+    .nav {
+        width: 98%;
+        margin: 0 auto;
+        .shang {
+            overflow: hidden;
+            // background-color: #f1f1f1;
+            .liv {
+                padding: 0 10*@rem;
+                width: 94%;
+                display: inline-block;
+                margin:10*@rem;
+                background-color: #fff;
+                .img-now {
+                    margin-top: 10*@rem;
+                    img {
+                        width: 60%;
+                        display: block;
+                        margin: 0 auto;
+                    }
+                }
+                .title-1 {
+                    font-size: 22*@rem;
+                    color: #000;
+                }
+                .price {
+                    span:first-child {
+                        font-size :28*@rem;
+                        color:  @price-color;
+                        margin-top: 10*@rem;
+                    }
+                    span:nth-child(2) {
+                        display: block;
+                        width: 100*@rem;
+                        height: 46*@rem;
+                        background-color:#ff9501;
+                        color:#fff;
+                        border-radius: 10*@rem;
+                        font-size: 24*@rem;
+                        line-height: 46*@rem;
+                        text-align: center;
+                        margin-bottom: 8*@rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+

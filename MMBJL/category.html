@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>比价搜索</title>
+    <script src="lib/jquery/jquery-1.12.0.min.js"></script>
+    <script src="lib/art/template.js"></script>
+    <script src='lib/flexible/flexible.js'></script>
+    <script src='lib/flexible/flexible_css.js'></script>
+    <script src="js/conmmon.js"></script>
+    <script src="js/category.js"></script>
+    <link rel='stylesheet' href='css/basex.css'>
+    <link rel="stylesheet" href="css/category.css">
+    <link rel="stylesheet" type="text/css" href="fonts/four-webfont/iconfont.css">
+</head>
+<body>
+    <header id="header">
+        <!--头部logo 下载app 区域-->
+        <div class="logo f-left">
+            <a href="./index.html"><img src="./images/header_logo.png" alt=""></a>
+        </div>
+        <div class="dow f-right"><a href="javascript:;"><img src="./images/header_app.png" alt=""></a></div>
+    </header>
+    <section class="search">
+        <!--搜索区域-->
+        <div class="f-right">
+            <input type="button" value="搜索">
+        </div>
+        <div class="left">
+            <input type="text" name="搜索框" placeholder="请输入你想比价的商品">
+        </div>
+    </section>
+
+    <!--商品分类-->
+    <section class="sort">
+        <ul class="classify">
+        </ul>
+    </section>
+
+    <!--登录注册返回顶部-->
+    <footer class="footer">
+        <div class="login clearfix">
+            <span class="lo f-left">登录</span>
+            <span class="lo f-left">注册</span>
+            <span class="top f-left"><img src="images/top.jpg" alt="顶部">返回顶部</span>
+        </div>
+        <div class="dowload">
+            <p class="app"><span>手机APP下载</span> <span>慢慢买手机版</span>  -- 掌上比价平台</p>
+            <p class="dizhi">m.manmanbuy.com</p>
+        </div>
+    </footer>
+
+
+    <!--模板-->
+    <script id="menu-title" type="text/html">
+        {{ each result as item }}
+            <li class="menu " id="{{item.titleId}}">
+                <a class="top-list clearfix" href="javascript:;">
+                    <h2 class="title f-left">{{item.title}}</h2>
+                    <div class="f-right arrowdown iconfont icon-icback"></div>
+                </a>
+                <ul class="list clearfix hide">
+                </ul>
+            </li>
+        {{ /each }}
+    </script>
+    <script id="smallTitle" type="text/html">
+        {{ each result as item  }}
+            <li class=" w33 f-left" id="{{item.categoryId}}"><a href="productlist.html">{{item.category}}</a></li>
+        {{ /each }}
+    </script>
+    <script id="categorylist" type="text/html">
+        {{ each result as item  }}
+            <li class=" w33 f-left" id="{{item.categoryId}}"><a href="productlist.html">{{item.category}}</a></li>
+        {{ /each }}
+    </script>
+</body>
+</html>

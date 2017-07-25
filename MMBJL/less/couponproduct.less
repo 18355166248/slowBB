@@ -1,0 +1,102 @@
+@themes: "."; // 路径提取
+@import "@{themes}/common.less";   // 导入变量 less
+
+.secondHeader(#f4483e);
+.commonFooter;
+
+// 产品信息
+.cue {
+    p {
+        height :108*@rem;
+        font-size: 26*@rem;
+        color :#aeb1b1;
+        text-align: center;
+        line-height: 108*@rem;
+    }
+}
+
+// 详细信息
+.menu {
+    background-color: #fff;
+    .chide {
+        border-bottom:2*@rem solid #ccc;
+        padding:20*@rem;
+        .f-left {
+            img  {
+                width: 200*@rem;
+                height: 160*@rem;
+            }
+        }
+        .title {
+            margin-left:220*@rem;
+            font-size: 26*@rem;
+            color :#000;
+            .price {
+                font-weight:700;
+            }
+            .time {
+                height:22*@rem;
+                color :@price-color;
+                padding:40*@rem 0;
+                font-size:22*@rem;
+            }
+        }
+    }
+}
+
+// 蒙版图片
+.mask {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(144, 144, 144, .3);
+    .midd-img { 
+        position: absolute;
+        width: 300*@rem;
+        height: 260*@rem;
+        left:50%;
+        top:50%;
+        margin-left: -150*@rem;
+        margin-top: -130*@rem;
+        img {
+            width: 300*@rem;
+            height: 260*@rem;
+        }
+        div {
+            position: absolute;
+            font-size: 90*@rem;
+            top:90*@rem;
+            color: #c3bebe;
+        }
+        .prev {   
+            left: -140*@rem;
+        }
+        .next {
+            right: -140*@rem;
+            transform: rotate(180deg);
+        }
+    }
+    
+}
+
+// 固定 返回顶部 小火箭
+.backTop {
+    position: fixed;
+    right : 20*@rem;
+    bottom: 100*@rem;
+    width : 80*@rem;
+    height: 80*@rem;
+    z-index: 2;
+    border-radius: 40*@rem;
+    background-color: #7f7f7f;
+    div {
+        font-size: 60*@rem;
+        color:#ccc;
+        transform: rotate(-45deg);
+        margin-top: 10*@rem;
+    }
+    div:before {
+        margin-left: 10*@rem;
+    }
+}

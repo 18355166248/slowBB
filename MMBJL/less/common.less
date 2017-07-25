@@ -1,0 +1,210 @@
+@themes: "."; // 路径提取
+@import "@{themes}/px2rem.less";     // 导入换算 less
+@import "@{themes}/variable.less";   // 导入变量 less
+
+html,body {
+    min-width: 320px;
+}
+//首页顶部 logo+app下载
+.indexHeader() {
+    #header {
+        background-color: @main-color;
+        height: @rem*100;
+        > .logo {
+            height: @rem*75;
+            padding-top: 29*@rem;
+            margin-left: 33*@rem;
+            > a {
+                >img {
+                    height: @rem*46; 
+                }
+            }
+        }
+        > .dow {
+            height: @rem*70;
+            padding-top: @rem*14;
+            padding-right: @rem*14;
+            > a {
+                > img {
+                    height: @rem*70;
+                }
+            }
+        }
+    }
+}
+
+//顶部 箭头  标题  和 app下载  需要什么背景色可以直接在括号内写
+.secondHeader(@bgColor) {
+    .topText {
+        height: 88*@rem;
+        background-color: @bgColor;
+        .arrowLeft {
+            width: 100*@rem;
+            height: 48*@rem;
+            height: 88*@rem;
+            line-height: 88*@rem;
+            font-size: 30x*@rem;
+            color :#fff;
+            text-align: center;
+        }
+        .title {
+            color :#fff;
+            font-size : 43*@rem;
+            margin:0 100*@rem;
+            text-align: center;
+            line-height: 88*@rem;
+        }
+        .appdow {
+            text-align: center;
+            width: 100*@rem;
+            margin-top: 10*@rem;
+            img {
+                height: 66*@rem;
+            }
+        }
+    }
+}
+
+// 公共搜索框区域
+.commonSearch() {
+    .search {
+        height: @rem*103;
+        background-color: #fff;
+        padding:0 @rem*20;
+        // margin-bottom: 20*@rem;
+        > .left {
+            margin-right: 140 * @rem;
+            > input[type="text"] {
+                width: 100%;
+                height: @rem * 60;
+                border-radius: 30*@rem;
+                background-color: #f1f1f1;
+                font-size: 25*@rem;
+                margin-top: @rem*20;
+                text-indent: @rem*30;
+            }
+        }
+        > .f-right {
+            width: 140 * @rem;
+            > input {
+                height: @rem*60;
+                width: 126*@rem;
+                border-radius: @rem*30;
+                margin-top: @rem*20;
+                font-size: 31*@rem;
+                color:#fff;
+                background-color: #ff841d;
+                margin-left: @rem*15;
+            }
+        }
+    }
+}
+
+// 调用空白
+.commonSpace() {
+    .kongbai {
+        height: 49*@rem;
+        background-color: #fff;
+    }
+}
+// 登录注册返回顶部
+.commonFooter() {
+    .footer {
+        height: 85*@rem;
+        margin-top :49*@rem;
+        .login {
+            font-size: 25*@rem;
+            color:#000;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            text-align: center;
+            line-height: 70*@rem;
+            .lo {
+                width : 30%;
+                border-top: 1px solid #ccc;
+                border-bottom: 1px solid #ccc;
+                border-right: 1px solid #ccc;
+            }
+            .top {
+                width : 40%;
+                border-top: 1px solid #ccc;
+                border-bottom: 1px solid #ccc;
+                position: relative;
+                img {
+                    height: 28*@rem;
+                    vertical-align: sub;
+                }
+            }
+        }
+        .dowload {
+            text-align: center;
+            font-size :19*@rem;
+            margin:34*@rem 0;
+            .app {
+                span:first-child {
+                    color : red;
+                    font-weight: 700;
+                }
+                span:nth-child(2) {
+                    color : #000;
+                    font-weight: 700;
+                }
+            }
+            .dizhi {
+                margin-top: 5*@rem;
+            }
+        }
+    }
+}
+
+// 分级菜单 样式
+.commonCommond() {
+    .recommend {
+        background: linear-gradient(to bottom ,#fff,#f7f7f7);
+        padding-top: 10*@rem;
+        height : @rem*72;
+        padding : 0 20*@rem;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        line-height: @rem*70;
+        > .f-left {
+            font-size: @rem * 33;
+        }
+        > .f-right {
+            > input {
+                display: inline-block;
+                width: 122*@rem;
+                border: 1px solid #ccc;
+                font-size: 26*@rem;
+                border-radius: 7px;
+                height : 56 * @rem;
+                box-shadow: 2px 2px 5px #ccc;
+                margin-top: 2*@rem;
+                background: linear-gradient(to bottom ,#f7f7f7,#fff);
+            }
+        }
+    }
+}
+
+// 固定 返回顶部 小火箭
+.commonBack() {
+    .backTop {
+        position: fixed;
+        right : 20*@rem;
+        bottom: 100*@rem;
+        width : 80*@rem;
+        height: 80*@rem;
+        z-index: 2;
+        border-radius: 40*@rem;
+        background-color: #7f7f7f;
+        div {
+            font-size: 60*@rem;
+            color:#ccc;
+            transform: rotate(-45deg);
+            margin-top: 10*@rem;
+        }
+        div:before {
+            margin-left: 10*@rem;
+        }
+    }
+}
